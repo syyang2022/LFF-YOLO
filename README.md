@@ -1,6 +1,8 @@
 1. 数据集的准备   
 数据集文件结构:NEU-DET/Annotations
+
                    /ImageSets/Main
+                   
                    /JPEGImages
 2. 数据集的处理   
 修改voc_annotation.py里面的DataPath为NEU-DET数据集的路径，运行后会自动划分数据集生成txt文件。   
